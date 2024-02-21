@@ -8,4 +8,9 @@ export default defineConfig({
             refresh: true,
         }),
     ],
+    resolve: {
+        alias: {
+            'media-library-pro-styles': __dirname + '/vendor/spatie/laravel-medialibrary-pro/resources/js/media-library-pro-styles',
+        },
+    },
 });
